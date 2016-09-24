@@ -1,0 +1,35 @@
+<style>
+@import 'https://fonts.googleapis.com/css?family=Elsie+Swash+Caps|Open+Sans';
+</style>
+	/* This is a comment */
+
+/* CSS Syntax:
+
+selector {
+	property: value;
+	property: value;
+}
+
+*/
+
+/* Type selector */
+
+p {/* select all <p>*/
+font-size: 16px; /*16px,?pt, 100%, 1em */
+line-height: 1.5em;
+}
+
+figcaption {
+	font-weight: normal;
+	font-size: 0.75em;
+	line-height: 1.5em;
+	font-family: 'Elsie Swash Caps', cursive;
+	color:#777;
+	text-align: right;
+}
+
+.milk-text {/* select elements with class ="milk-text" */
+font: bold 2.6em 'Elsie Swach Caps', cursive;
+color: white;
+text-shadow: 1 2px 3px #000;
+}
